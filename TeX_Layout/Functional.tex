@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx} %Required for diagrams
 \usepackage{bookmark}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -13,33 +14,38 @@
 Date & Version & Description\\ %NOTE: Necessary for [updated by] ?
 \hline
 17-02-2015 & Version 0.1 & Document Template Created\\ %February 17 - Matthew (Took the date that the document was on github)
+17-02-2015 & Version 0.2 & UP Logo Added \\%February 17 - Roger (Date Taken from github)
+18-02-2015 & Version 0.2.1 & Intro, Purpose, Conventions and Description Added\\%February 18 - Matthew (Date Taken from GitHub
 
 \end{tabular}
 
 \newpage
-%NOTE: build it twice if warnings occur and table of contents do not show(Happens on Kile application-Linux)
-%Warnings are - No file requirements.aux - No file requirements.toc
 \tableofcontents
-
 \newpage
 
 \section{Introduction}
-We'll Type Introduction here (Basically The spec given in our own words)
+The Computer Science Education Didactic and Application Research (CSEDAR) from the university of Pretoria. Have approached us in building a software platform to create a collaborative community by means of an online discussion. To aid students to excel in problem solving as  group. Such a tool already exists for students to use however this tool lacks certain functionality, Lecturer - Student interaction, often students are unaware of who is higher ranked in terms of the course (Teaching Assistant, Tutor, Lecturer \& student).
 
 \subsection{Purpose}
-What is the purpose of the doc?	
+This document serves to present the clients requirements on a functional level by use of use-case diagrams, Domain models, pre- \& post conditions as well as possible input-output pairs.
 
 \subsection{Document Conventions}
-Conventions used in the doc.
+A ranking system of importance is used for the functional requirements based on a 'star' system with 
+\\***** - Critical
+\\****  - Important
+\\ ***  - Somewhat important
+\\  **  - Nice to have
+\\  *   - Not considered
+
 
 \subsection{Project Scope}
 Short overview with limitations and restrictions of the project.
 
 \subsection{References}
-References used.
+Tutorial on Use case diagrams - \url{http://www.tutorialspoint.com/uml/uml_use_case_diagram.htm}
 
 \section{System Description}
-A full description of the system
+Buzz will be a complete software unit which is to be integrated seamlessly with existing web servers to be used by courses to encourage the use of online discussion. Users will be able to climb ranks up the online discussion forum and achieve more functionality as they progress. The system will also have certain functionality incorporated into awarding users marks if required so by the teaching staff. Teaching staff will also be able to archive and summarise threads. Users will also only be able to post in threads which pertain to them at that specific time, thus having a thread become 'Ancient' and hence archived no new information may be added to said thread.
 
 \section{Functional Requirements}
 
