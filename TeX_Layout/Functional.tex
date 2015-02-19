@@ -23,6 +23,8 @@ Date & Version & Description\\ %NOTE: Necessary for [updated by] ?
 \newpage
 \tableofcontents
 \newpage
+\listoffigures
+\newpage
 
 \section{Introduction}
 The Computer Science Education Didactic and Application Research (CSEDAR) from the university of Pretoria. Have approached us in building a software platform to create a collaborative community by means of an online discussion. To aid students to excel in problem solving as  group. Such a tool already exists for students to use however this tool lacks certain functionality, Lecturer - Student interaction, often students are unaware of who is higher ranked in terms of the course (Teaching Assistant, Tutor, Lecturer \& student).
@@ -32,11 +34,11 @@ This document serves to present the clients requirements on a functional level b
 
 \subsection{Document Conventions}
 A ranking system of importance is used for the functional requirements based on a 'star' system with 
-\\***** - Critical
-\\****  - Important
-\\ ***  - Somewhat important
-\\  **  - Nice to have
-\\  *   - Not considered
+\\****** - Critical
+\\*****  - Important
+\\ ****  - Somewhat important
+\\  ***  - Nice to have
+\\  **   - Not considered
 
 
 \subsection{Project Scope}
@@ -118,22 +120,22 @@ message.  % Point 3 - David
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
-   \item  % Point 4 - Roger
+   \item Restrict users to post on specified levels based on their status. % Point 4 - Roger
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration - User interaction with the current Buzz space must be configurable by policy to allow users with higher levels to post to the Buzz space on higher levels such as directly below the main post while restricting low level users to only post in lower levels like sub level posts or even sub sub level posts. This allows high level users to post higher up in the Buzz spaces hierarchy while restricting low level users to the bottom. 
+    \item Importance - ****
+    \item Dependency level - Relies on the ranking system to be implemented so that it can request user levels. A policy to govern the levels has to be supplied by the creator of the Buzz space.
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User must be part of the specific Buzz space.
+    	\item Policy acquired.
+    	\item User must try to post.
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User successfully posted to the correct level as specified in the policy.
     \end{enumerate}
-    \item Requester
+    \item Requester - System (This is an automated system requirement)
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
@@ -270,22 +272,21 @@ message.  % Point 3 - David
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
-   \item  % Point 12 - Roger
+   \item Gather statistical information on each user for graphical representation. % Point 12 - Roger
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration - System must continuously gather each user’s contribution and participation in the Buzz space to allow the user to view a graphical representation of where they stand or rank up amongst their peers. Provide a game like scoreboard to motivate the users.
+    \item Importance - **
+    \item Dependency level - Requires the ranking system to be active in order to pull the stats. 
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User has participated at least x times to gather historical data
+    	\item More than y users have contributed to specific Buzz Space
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User receives the graphical representation of their participation.
     \end{enumerate}
-    \item Requester
+    \item Requester - User
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
