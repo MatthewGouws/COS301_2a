@@ -103,18 +103,19 @@ The Following system processes detail the functional requirements of the individ
 on the level where it is posted as well as on the status of the user posting the
 message.  % Point 3 - David
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration - Restrictions on the length of message should be configurable by policy, according to user level and post location. This will allow Buzz Space creators specific control over content type and post length for users of different level/rank.
+    \item Importance - ***
+    \item Dependency level - Relies on the ranking system to be implemented and provide a user's level/rank. Two policies must be set by the Buzz Space creator, one for message length according to level/rank, and one for permitted content types according to level/rank.
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User must belong to a Buzz Space.
+    	\item User must attempt to post.
+	\item Policies must be acquired.
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User successfully posted a post that contains only permitted content types.
+    	\item User successfully posted a post that contains less than or equal to the permitted character length.
     \end{enumerate}
     \item Requester
   \end{enumerate}
