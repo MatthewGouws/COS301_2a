@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {1}{\ignorespaces User Post Restriction By User Level Use Case}}{10}{figure.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Automatically Change users level based on participation Use Case}}{14}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Automatically Change users level based on participation UML}}{15}{figure.3}
@@ -6,3 +7,8 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Plagiarism Check Use Case}}{22}{figure.6}
 \contentsline {figure}{\numberline {7}{\ignorespaces Plagiarism Check UML}}{23}{figure.7}
 \contentsline {figure}{\numberline {8}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{24}{figure.8}
+=======
+\contentsline {figure}{\numberline {1}{\ignorespaces Message Length and Content Restriction}}{10}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces User Post Restriction By User Level Use Case}}{11}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces User Statistical Information}}{19}{figure.3}
+>>>>>>> origin/David
