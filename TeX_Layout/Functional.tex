@@ -182,24 +182,28 @@ message.  % Point 3 - David
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
-   \item  % Point 7 - Neo
+   \item  Create automated template based messages to individual users or specified groups 
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration - This gives a template message about a topic to an individual user or a group.
+    \item Importance - ***
+    \item Dependency level - This depends on the user input; the system will parse through the words and build a summary accordingly
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item Condition 1 - Users have to be registered.
+    	\item Condition 2 - Group must exist and have some members.
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item Condition 1 - Individual user gets a system generated message.
+    	\item Condition 2 - Group members get a system generated message.
     \end{enumerate}
-    \item Requester
+    \item Requester - The System.
   \end{enumerate}
-%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics[width=10cm, height=5cm]{"Diagrams/Use Case/MgsGeneration".jpg}
+    	\caption{Generate Template Message for user or group.}
+    \end{figure}
 \newpage %Each point on a new page
    \item Automatically change the status of a user based on the users participation % Point 8 - Matthew
   \begin{enumerate}
@@ -338,24 +342,26 @@ message.  % Point 3 - David
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
-   \item  % Point 15 - Neo
+   \item  Apply self-organasation based on social tagging and allow the user to view according to the base structure, owns structure or public structure 
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration - The user is able to add social tags that tell us more about a post thus is also able to search for a thread according to topics that have those social tags. But the user is also able to view according to the base structure given by the buzz system or specify their own structure there is also a general structure for the public who are not registered users.  The system may also add tags by parsing user input for keywords.
+    \item Importance - ***
+    \item Dependency level - This feature depends on the user selecting tags in which to order the base structure of the posts that they see.
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item Condition - Base structure of posts that is unsorted according to social tags.
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item Condition - Base structure of posts that is sorted according to social tags.
     \end{enumerate}
-    \item Requester
+    \item Requester : The user.
   \end{enumerate}
-%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics[width=10cm, height=5cm]{"Diagrams/Use Case/SocialTags".jpg}
+    	\caption{self-organasation of data via social tags}
+    \end{figure}
 \newpage %Each point on a new page
    \item Detect if a post is plagiarised  % Point 16 - Matthew
   \begin{enumerate}
