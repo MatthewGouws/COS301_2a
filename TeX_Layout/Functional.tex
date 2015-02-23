@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx} %Required for diagrams
 \usepackage{bookmark}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -13,45 +14,422 @@
 Date & Version & Description\\ %NOTE: Necessary for [updated by] ?
 \hline
 17-02-2015 & Version 0.1 & Document Template Created\\ %February 17 - Matthew (Took the date that the document was on github)
+17-02-2015 & Version 0.2 & UP Logo Added \\%February 17 - Roger (Date Taken from github)
+18-02-2015 & Version 0.2.1 & Intro, Purpose, Conventions and Description Added\\%February 18 - Matthew (Date Taken from GitHub
+19-02-2015 & Version 0.2.2 & Added Skeleton for Required functionality \\%February 19 - Matthew (Date Taken from GitHub
 
 \end{tabular}
 
 \newpage
-%NOTE: build it twice if warnings occur and table of contents do not show(Happens on Kile application-Linux)
-%Warnings are - No file requirements.aux - No file requirements.toc
 \tableofcontents
-
+\newpage
+\listoffigures
 \newpage
 
 \section{Introduction}
-We'll Type Introduction here (Basically The spec given in our own words)
+The Computer Science Education Didactic and Application Research (CSEDAR) from the university of Pretoria. Have approached us in building a software platform to create a collaborative community by means of an online discussion. To aid students to excel in problem solving as  group. Such a tool already exists for students to use however this tool lacks certain functionality, Lecturer - Student interaction, often students are unaware of who is higher ranked in terms of the course (Teaching Assistant, Tutor, Lecturer \& student).
 
 \subsection{Purpose}
-What is the purpose of the doc?	
+This document serves to present the clients requirements on a functional level by use of use-case diagrams, Domain models, pre- \& post conditions as well as possible input-output pairs.
 
 \subsection{Document Conventions}
-Conventions used in the doc.
+A ranking system of importance is used for the functional requirements based on a 'star' system with 
+\\****** - Critical
+\\*****  - Important
+\\ ****  - Somewhat important
+\\  ***  - Nice to have
+\\  **   - Not considered
+
 
 \subsection{Project Scope}
 Short overview with limitations and restrictions of the project.
 
 \subsection{References}
-References used.
+Tutorial on Use case diagrams - \url{http://www.tutorialspoint.com/uml/uml_use_case_diagram.htm}
 
 \section{System Description}
-A full description of the system
-
+Buzz will be a complete software unit which is to be integrated seamlessly with existing web servers to be used by courses to encourage the use of online discussion. Users will be able to climb ranks up the online discussion forum and achieve more functionality as they progress. The system will also have certain functionality incorporated into awarding users marks if required so by the teaching staff. Teaching staff will also be able to archive and summarise threads. Users will also only be able to post in threads which pertain to them at that specific time, thus having a thread become 'Ancient' and hence archived no new information may be added to said thread.
+\newpage %Use case diagram on its own page...quite large (Entire Combined Use Case)
 \section{Functional Requirements}
 
-\subsection{System Features}
-List of requirements. (Bullets given to us)
-
-\newpage %Use case diagram on its own page...quite large
 \subsection{Use Cases}
 We can Add all the details from MagicDraw here
 \begin{center}
 
 \end{center}
+\newpage %Use case diagram on its own page...quite large (Entire Combined Use Case)
+\subsection{Required Functionality}
+The Following system processes detail the functional requirements of the individual points.
+\begin{enumerate}
+  \item Users must create, Update and delete posts. % Point 1 - Syzmon
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - *****
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+  \item Keep track of who has read what and highlight unread messages for each user. % Point 2 - Rendani
+  \begin{enumerate}
+    \item Elaboration - This process will allow the student/user to see which thread he/she still has to read by applying some form of emphasis on the thread. It will also allow a lecturer/board moderator to view read statistics of a thread such as how many students have read a thread and who those students are.
+    \item Importance - *
+    \item Dependency level - This function is not critical to the core operation of the system but is a client requested amenity. 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item A user must be logged in and registered for that particular buzz space.
+    	\item A user must be logged in and have elevated privileges, such as lecturer/moderator status, to view read statistics of a post
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User is presented with formatted view highlighting unread threads
+    	\item User(lecturer) is presented with read statistics of a particular thread
+    \end{enumerate}
+    \item Requester - Client
+  \end{enumerate}
+	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 1".png}
+\newpage %Each point on a new page
+  \item Restrict the length of messages and the type of content allowed in messages based
+on the level where it is posted as well as on the status of the user posting the
+message.  % Point 3 - David
+  \begin{enumerate}
+    \item Elaboration - Restrictions on the length of message should be configurable by policy, according to user level and post location. This will allow Buzz Space creators specific control over content type and post length for users of different level/rank.
+    \item Importance - ***
+    \item Dependency level - Relies on the ranking system to be implemented and provide a user's level/rank. Two policies must be set by the Buzz Space creator, one for message length according to level/rank, and one for permitted content types according to level/rank.
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User must belong to a Buzz Space.
+    	\item User must attempt to post.
+	\item Policies must be acquired.
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User successfully posted a post that contains only permitted content types.
+    	\item User successfully posted a post that contains less than or equal to the permitted character length.
+    \end{enumerate}
+    \item Requester - System
+  \end{enumerate}
+\begin{figure}[h]
+  	\centering
+  	\includegraphics[width=400px]{"Diagrams/Use Case/UseCasePoint03".png}
+  	\caption{Message Length and Content Restriction}
+  \end{figure}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item Restrict users to post on specified levels based on their status. % Point 4 - Roger
+  \begin{enumerate}
+    \item Elaboration - User interaction with the current Buzz space must be configurable by policy to allow users with higher levels to post to the Buzz space on higher levels such as directly below the main post while restricting low level users to only post in lower levels like sub level posts or even sub sub level posts. This allows high level users to post higher up in the Buzz spaces hierarchy while restricting low level users to the bottom. 
+    \item Importance - ****
+    \item Dependency level - Relies on the ranking system to be implemented so that it can request user levels. A policy to govern the levels has to be supplied by the creator of the Buzz space.
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User must be part of the specific Buzz space.
+    	\item Policy acquired.
+    	\item User must try to post.
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User successfully posted to the correct level as specified in the policy.
+    \end{enumerate}
+    \item Requester - System (This is an automated system requirement)
+  \end{enumerate}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/Use Case/UserRestrictionByLevel UseCase".png}
+	\caption{User Post Restriction By User Level Use Case}
+\end{figure}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 5 - Ivan
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 6 - Keagan
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 7 - Neo
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item Automatically change the status of a user based on the users participation % Point 8 - Matthew
+  \begin{enumerate}
+    \item Elaboration - The System should be configured in such a way that when a user participates often the user will progress through the levels of the system, Specific number of points required per level.
+    \item Importance - ****
+    \item Dependency level - Requires the users level to be implemented before a user can participate and increase in level, Users should be able to post on Buzz
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User is in level x
+    	\item User only needs y amount of points to progress
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User achieved y amount of point
+    	\item User is now in level x+1
+    \end{enumerate}
+    \item Requester - System (Automatically checks each time a user posts)
+  \end{enumerate}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/Use Case/PostFreqLevel UseCase".png}
+	\caption{Automatically Change users level based on participation Use Case}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/UML/UML ChangeUserLevelPosts".png}
+	\caption{Automatically Change users level based on participation UML}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecUpdateLevel".png}
+	\caption{Process Specification for Automatically Update User Level}
+\end{figure}
+\newpage %Each point on a new page
+   \item  % Point 9 - Syzmon
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+\item Provide functions such as searching and filtering. % Point 10 - Rendani
+  \begin{enumerate}
+    \item Elaboration - This function will allow users to search for threads by topic, original poster, date etc. and filter posts by the topic such as “assignments”, “practicals”, “tutorials”, “general” etc.
+    \item Importance - **
+    \item Dependency level - The system can function without this function but it is important because it makes the system easier to use.
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User enters a search query
+    	\item User chooses filter condition
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User is presented with results of search query
+    	\item User is presented with filtered threads
+    \end{enumerate}
+    \item Requester - Client
+  \end{enumerate}
+	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 2".png}
+\newpage %Each point on a new page
+   \item  Provide functionality to evaluate posts and vote for posts. % Point 11 - David
+  \begin{enumerate}
+    \item Elaboration - Users must be able to vote a post up or down. Buzz Space creators must be able to evaluate posts. This will result in more relevant posts getting higher ratings and thus standing out.
+    \item Importance - ***
+    \item Dependency level - Depends on the post having been created.
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Post must be created
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Post is voted up or down.
+    	\item Post is evaluated.
+    \end{enumerate}
+    \item Requester - User
+  \end{enumerate}
+  	\includegraphics[width=350px]{"Diagrams/Use Case/UseCasePoint11".png}
+\newpage %Each point on a new page
+   \item Gather statistical information on each user for graphical representation. % Point 12 - Roger
+  \begin{enumerate}
+    \item Elaboration - System must continuously gather each user’s contribution and participation in the Buzz space to allow the user to view a graphical representation of where they stand or rank up amongst their peers. Provide a game like scoreboard to motivate the users.
+    \item Importance - **
+    \item Dependency level - Requires the ranking system to be active in order to pull the stats. 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User has participated at least x times to gather historical data
+    	\item More than y users have contributed to specific Buzz Space
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item User receives the graphical representation of their participation.
+    \end{enumerate}
+    \item Requester - User
+  \end{enumerate}
+  \begin{figure}[h]
+  	\centering
+  	\includegraphics[width=400px]{"Diagrams/Use Case/UserStatisticalinformation UseCase".png}
+  	\caption{User Statistical Information}
+  \end{figure}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 13 - Ivan
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 14 - Keagan
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item  % Point 15 - Neo
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\newpage %Each point on a new page
+   \item Detect if a post is plagiarised  % Point 16 - Matthew
+  \begin{enumerate}
+    \item Elaboration - The entire post will be checked to see if it has been copied directly from another source, a full post quote will be open searched in a search engine, if any hits are found the post will be marked as possibly plagiarised and send to administrator
+    \item Importance - **
+    \item Dependency level - User must be able to post to Buzz
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item User posts a post
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Post is marked as Plagiarised - Added to Buzz(Invisible, Message sent to user and Administrator
+    	\item Post is marked as not Plagiarised - Posted to Buzz
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/Use Case/Plagiarism UseCase".png}
+	\caption{Plagiarism Check Use Case}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/UML/UML_Plagiarism".png}
+	\caption{Plagiarism Check UML}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecPlagiarism".png}
+	\caption{Process Specification for Checking Plagiarism API and Internal Checks}
+\end{figure}
+\newpage %Each point on a new page
+   \item  % Point 17 - Szymon
+  \begin{enumerate}
+    \item Elaboration - 
+    \item Importance - 
+    \item Dependency level - 
+    \item Pre-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+        \item Post-conditions
+    \begin{enumerate}
+    	\item Condition 1
+    	\item Condition 2
+    \end{enumerate}
+    \item Requester
+  \end{enumerate}
+%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+  \ldots
+\end{enumerate}
+
+
 
 
 \newpage
