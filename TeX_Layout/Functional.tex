@@ -17,6 +17,7 @@ Date & Version & Description\\ %NOTE: Necessary for [updated by] ?
 17-02-2015 & Version 0.2 & UP Logo Added \\%February 17 - Roger (Date Taken from github)
 18-02-2015 & Version 0.2.1 & Intro, Purpose, Conventions and Description Added\\%February 18 - Matthew (Date Taken from GitHub
 19-02-2015 & Version 0.2.2 & Added Skeleton for Required functionality \\%February 19 - Matthew (Date Taken from GitHub
+23-02-2015 & Version 0.2.3 & Updated Use Case prioritization and fixed newPage with Clearpage \\%February 23 - Matthew (Date Taken from GitHub
 
 \end{tabular}
 
@@ -54,9 +55,39 @@ Buzz will be a complete software unit which is to be integrated seamlessly with 
 
 \subsection{Use Cases}
 We can Add all the details from MagicDraw here
-\begin{center}
 
-\end{center}
+\subsubsection{Use Case Prioritization}
+\textbf{Critical:}
+\begin{itemize}
+\item Users must be able to create, Read, update and delete posts.
+\item Users must only be able to post on specific threads/levels based on their level.
+\item Staff should be able to summarize, close/hide threads and move posts around.
+\item Buzz must integrate seamlessly with any host site.
+\end{itemize}
+\textbf{Important:}
+\begin{itemize}
+\item The system should keep track of what posts have been read by a specific user and highlight unread posts.
+\item The system should allow for social tagging, allowing users to easily locate threads on what they are looking for.
+\end{itemize}
+\textbf{Important-Nice to have:} 
+\begin{itemize}
+\item The post length should be restricted. Users of higher levels can post and embed Pictures, Videos etc.
+\item A users status should automatically update based on their participation.
+\item Post should be able to be up-voted, shown higher in the thread.
+\item Statistics should be available for each student displaying their marks, and visual reporting of their level.
+\end{itemize}
+\newpage
+\textbf{Nice to have:}
+\begin{itemize}
+\item Semi-automated thread summary creation.
+\item Create an automated template based on Message and other users.
+\item Provide searching and filtering.
+\item Enhancement of posts, such as Rich-text-format editor.
+\item Apply organization of content based on tags, base structure or ownership structure.
+\item Detect if a post is plagiarised.
+\item Detect if Netiquette rule are broken.
+\end{itemize}
+
 \newpage %Use case diagram on its own page...quite large (Entire Combined Use Case)
 \subsection{Required Functionality}
 The Following system processes detail the functional requirements of the individual points.
@@ -238,8 +269,8 @@ message.  % Point 3 - David
 	\centering
 	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecUpdateLevel".png}
 	\caption{Process Specification for Automatically Update User Level}
-\end{figure}
-\newpage %Each point on a new page
+\end{figure} \clearpage %Each point on a new page
+
    \item  % Point 9 - Syzmon
   \begin{enumerate}
     \item Elaboration - 
@@ -258,7 +289,7 @@ message.  % Point 3 - David
     \item Requester
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
 \item Provide functions such as searching and filtering. % Point 10 - Rendani
   \begin{enumerate}
     \item Elaboration - This function will allow users to search for threads by topic, original poster, date etc. and filter posts by the topic such as “assignments”, “practicals”, “tutorials”, “general” etc.
@@ -277,7 +308,7 @@ message.  % Point 3 - David
     \item Requester - Client
   \end{enumerate}
 	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 2".png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  Provide functionality to evaluate posts and vote for posts. % Point 11 - David
   \begin{enumerate}
     \item Elaboration - Users must be able to vote a post up or down. Buzz Space creators must be able to evaluate posts. This will result in more relevant posts getting higher ratings and thus standing out.
@@ -295,7 +326,7 @@ message.  % Point 3 - David
     \item Requester - User
   \end{enumerate}
   	\includegraphics[width=350px]{"Diagrams/Use Case/UseCasePoint11".png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Gather statistical information on each user for graphical representation. % Point 12 - Roger
   \begin{enumerate}
     \item Elaboration - System must continuously gather each user’s contribution and participation in the Buzz space to allow the user to view a graphical representation of where they stand or rank up amongst their peers. Provide a game like scoreboard to motivate the users.
@@ -318,7 +349,7 @@ message.  % Point 3 - David
   	\caption{User Statistical Information}
   \end{figure}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  % Point 13 - Ivan
   \begin{enumerate}
     \item Elaboration - 
@@ -337,7 +368,7 @@ message.  % Point 3 - David
     \item Requester
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  % Point 14 - Keagan
   \begin{enumerate}
     \item Elaboration - 
@@ -356,7 +387,7 @@ message.  % Point 3 - David
     \item Requester
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  % Point 15 - Neo
   \begin{enumerate}
     \item Elaboration - 
@@ -375,7 +406,7 @@ message.  % Point 3 - David
     \item Requester
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Detect if a post is plagiarised  % Point 16 - Matthew
   \begin{enumerate}
     \item Elaboration - The entire post will be checked to see if it has been copied directly from another source, a full post quote will be open searched in a search engine, if any hits are found the post will be marked as possibly plagiarised and send to administrator
@@ -407,7 +438,7 @@ message.  % Point 3 - David
 	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecPlagiarism".png}
 	\caption{Process Specification for Checking Plagiarism API and Internal Checks}
 \end{figure}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  % Point 17 - Szymon
   \begin{enumerate}
     \item Elaboration - 
@@ -432,7 +463,7 @@ message.  % Point 3 - David
 
 
 
-\newpage
+\clearpage
 
 \subsection{Entity Relationship Diagrams}
 
