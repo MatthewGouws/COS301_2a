@@ -582,23 +582,34 @@ message.  % Point 3 - David
 	\caption{Process Specification for Checking Plagiarism API and Internal Checks}
 \end{figure}
 \clearpage %Each point on a new page
-   \item  % Point 17 - Szymon
-  \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
-    \item Pre-conditions
-    \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
-    \end{enumerate}
-        \item Post-conditions
-    \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
-    \end{enumerate}
-    \item Requester
-  \end{enumerate}
+   \item Detect violation of netiquette rules. % Point 1 - Syzmon
+	\begin{enumerate}
+  	\item Elaboration - Many of the users are new to online interaction and often do not know/follow the netiquette rules. This process will check their post against a set of netiquette rules, if the post does not follow these rules the moderator will be notified via e-mail.
+   	 	\item Importance - ***, Nice to have
+   	 	\item Dependency level - This function is not very important to the system, it is a nice feature to have. The Buzz space can operate without this process.
+   	 	\item Pre-conditions
+   		\begin{enumerate}
+    		\item User must create a post.
+    	\end{enumerate}
+     	\item Post-conditions
+    	\begin{enumerate}
+  	  		\item Users post will be created successfully if it follows the netiquette rules.
+  	  		\item If the post does not follow one of the netiquette rules, the moderator will be notified about this and post will be flagged.
+   	 	\end{enumerate}
+   	 	\item Requester - System
+  	\end{enumerate}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/Use_Case_Diagram_Netiqutte".png}
+  		\caption{Delete post use case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/Activity_Diagram_Netiquette_check_AD".png}
+  		\caption{Check post netiquette activity diagram}
+  	\end{figure}
+  	\clearpage
+  	\newpage
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
   \ldots
 \end{enumerate}
