@@ -17,7 +17,7 @@ Date & Version & Description\\ %NOTE: Necessary for [updated by] ?
 17-02-2015 & Version 0.2 & UP Logo Added \\%February 17 - Roger (Date Taken from github)
 18-02-2015 & Version 0.2.1 & Intro, Purpose, Conventions and Description Added\\%February 18 - Matthew (Date Taken from GitHub
 19-02-2015 & Version 0.2.2 & Added Skeleton for Required functionality \\%February 19 - Matthew (Date Taken from GitHub
-23-02-2015 & Version 0.2.3 & Updated Use Case prioritization and fixed newPage with Clearpage \\%February 23 - Matthew (Date Taken from GitHub
+23-02-2015 & Version 0.2.3 & Updated Use Case prioritization and fixed newPage \\ & & with Clearpage \\%February 23 - Matthew (Date Taken from GitHub
 
 \end{tabular}
 
@@ -156,7 +156,7 @@ message.  % Point 3 - David
   	\caption{Message Length and Content Restriction}
   \end{figure}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Restrict users to post on specified levels based on their status. % Point 4 - Roger
   \begin{enumerate}
     \item Elaboration - User interaction with the current Buzz space must be configurable by policy to allow users with higher levels to post to the Buzz space on higher levels such as directly below the main post while restricting low level users to only post in lower levels like sub level posts or even sub sub level posts. This allows high level users to post higher up in the Buzz spaces hierarchy while restricting low level users to the bottom. 
@@ -176,11 +176,16 @@ message.  % Point 3 - David
   \end{enumerate}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=300px]{"Diagrams/Use Case/UserRestrictionByLevel UseCase".png}
+	\includegraphics[width=345px]{"Diagrams/Use Case/UserRestrictionByLevel UseCase".png}
 	\caption{User Post Restriction By User Level Use Case}
 \end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400px]{"Diagrams/Process Specification/UserRestrictionByLevel Process Spec".png}
+	\caption{User Post Restriction By User Level Process Specification}
+\end{figure}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  % Point 5 - Ivan
   \begin{enumerate}
     \item Elaboration - 
@@ -350,7 +355,12 @@ message.  % Point 3 - David
   \begin{figure}[h]
   	\centering
   	\includegraphics[width=400px]{"Diagrams/Use Case/UserStatisticalinformation UseCase".png}
-  	\caption{User Statistical Information}
+  	\caption{User Statistical Information Use Case}
+  \end{figure}
+  \begin{figure}[h]
+  	\centering
+  	\includegraphics[width=400px]{"Diagrams/Process Specification/UserStatisticalinformation Process Spec".png}
+  	\caption{User Statistical Information Process Specification}
   \end{figure}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \clearpage %Each point on a new page
