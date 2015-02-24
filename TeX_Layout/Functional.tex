@@ -93,22 +93,120 @@ We can Add all the details from MagicDraw here
 The Following system processes detail the functional requirements of the individual points.
 \begin{enumerate}
   \item Users must create, Update and delete posts. % Point 1 - Syzmon
-  \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - *****
-    \item Dependency level - 
-    \item Pre-conditions
-    \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
-    \end{enumerate}
-        \item Post-conditions
-    \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
-    \end{enumerate}
-    \item Requester
-  \end{enumerate}
+  	\begin{enumerate}
+  		\item Create Post
+  		\begin{enumerate}
+    		\item Elaboration - In order for the user to communicate with others in the Buzz space, (s)he need to be able to 				create posts. User must have sufficient permissions to post in certain areas of the Buzz space. This function is not available to guests.
+   	 		\item Importance - *****, Critical
+   	 		\item Dependency level - With out the ability to create posts users will not be able to communicate with one another, which makes the Buzz space useless.
+   	 		\item Pre-conditions
+   			\begin{enumerate}
+    			\item User must have necessary permissions.
+    			\item Buzz space must exist.
+    			\item User must be registered.
+    			\item User must be logged in and not a guest.
+    		\end{enumerate}
+     		\item Post-conditions
+    		\begin{enumerate}
+  	  			\item Post will be successfully created.
+   	 		\end{enumerate}
+   	 		\item Requester - Client
+  		\end{enumerate}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/Use_Case_Diagram_Create_Post".png}
+  		\caption{Create post use case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/Activity_Diagram_Create_Post_AD".png}
+  		\caption{Create post activity diagram}
+  	\end{figure}
+  	\clearpage
+  	\newpage
+  		\item Read Post
+  		\begin{enumerate}
+  			\item Elaboration - This function allows users read posts made by other users of the Buzz space.
+   	 		\item Importance - *****, Critical
+   	 		\item Dependency level - This function is very important because without it, the Buzz space is useless as users will not be able to read each others posts, which defeats the purpose of the Buzz space.
+   	 		\item Pre-conditions
+   			\begin{enumerate}
+    			\item Buzz space and post must exist.
+    			\item Access to Buzz space.
+    		\end{enumerate}
+     		\item Post-conditions
+    		\begin{enumerate}
+  	  			\item If the user is not a guest post will be marked as read.
+   	 		\end{enumerate}
+   	 		\item Requester - Client
+  		\end{enumerate}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/Use_Case_Diagram_Read_Post".png}
+  		\caption{Read post use case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/Activity_Diagram_Read_Post_AD".png}
+  		\caption{Read post activity diagram}
+  	\end{figure}
+  	\newpage
+  	\clearpage
+  		\item Update Post
+  		\begin{enumerate}
+  			\item Elaboration - This function allows the user to update his/her post. It is only available to certain users such as the owner of the post or the moderators.
+   	 		\item Importance - *****, Critical
+   	 		\item Dependency level - Updating posts is another important process needed in the Buzz space. People often make mistakes in their posts and have to correct it. The ability to update the post will help achieve that.
+   	 		\item Pre-conditions
+   			\begin{enumerate}
+    			\item User must be either the owner of the post or the moderator of that Buzz space.
+    		\end{enumerate}
+     		\item Post-conditions
+    		\begin{enumerate}
+  	  			\item Post will be updated.
+   	 		\end{enumerate}
+   	 		\item Requester - Client
+  		\end{enumerate}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/Use_Case_Diagram_Update_Post".png}
+  		\caption{Update post use case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/Activity_Diagram_Update_Post_AD".png}
+  		\caption{Update post activity diagram}
+  	\end{figure}
+  	\clearpage
+  	\newpage
+  		\item Delete Post
+  		\begin{enumerate}
+  			\item Elaboration - Deleting posts allows for users to remove their post from a Buzz space and also allows the moderators to delete posts that they think are not suitable for the Buzz space.
+   	 		\item Importance - *****, Critical
+   	 		\item Dependency level - The deleting of a post is also very important to a Buzz space. Owners of a post would like to remove their post if they think it is not relevant to the topic and moderators should be able to delete user posts if they think the post is not relevant.
+   	 		\item Pre-conditions
+   			\begin{enumerate}
+    			\item User must be either the owner of the post or the moderator of that Buzz space.
+    			\item Post must exist.
+    		\end{enumerate}
+     		\item Post-conditions
+    		\begin{enumerate}
+  	  			\item Post will be marked as deleted and hidden from Buzz space. Post is not physically deleted from database.
+   	 		\end{enumerate}
+   	 		\item Requester - Client
+  		\end{enumerate}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/Use_Case_Diagram_Delete_Post".png}
+  		\caption{Delete post use case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/Activity_Diagram_Delete_Post_AD".png}
+  		\caption{Delete post activity diagram}
+  	\end{figure}
+  	\clearpage
+  	\end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
   \item Keep track of who has read what and highlight unread messages for each user. % Point 2 - Rendani

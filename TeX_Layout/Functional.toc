@@ -9,5 +9,5 @@
 \contentsline {subsection}{\numberline {4.1}Use Cases}{6}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}Use Case Prioritization}{6}{subsubsection.4.1.1}
 \contentsline {subsection}{\numberline {4.2}Required Functionality}{8}{subsection.4.2}
-\contentsline {section}{\numberline {5}Open Issues}{32}{section.5}
-\contentsline {section}{\numberline {6}Glossary}{32}{section.6}
+\contentsline {section}{\numberline {5}Open Issues}{39}{section.5}
+\contentsline {section}{\numberline {6}Glossary}{39}{section.6}

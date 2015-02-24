@@ -1,15 +1,23 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Message Length and Content Restriction}}{11}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces User Post Restriction By User Level Use Case}}{12}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces User Post Restriction By User Level UML}}{13}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces User Post Restriction By User Level Process Specification}}{13}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Generate template message for user or group.}}{16}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Automatically Change users level based on participation Use Case}}{17}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Automatically Change users level based on participation UML}}{18}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Process Specification for Automatically Update User Level}}{18}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces User Statistical Information Use Case}}{22}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces User Statistical Information UML}}{23}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces User Statistical Information Process Specification}}{23}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Self-organasation of data via social tags.}}{28}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Plagiarism Check Use Case}}{29}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Plagiarism Check UML}}{30}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{30}{figure.15}
+\contentsline {figure}{\numberline {1}{\ignorespaces Create post use case}}{9}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Create post activity diagram}}{9}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Read post use case}}{10}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Read post activity diagram}}{11}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Update post use case}}{12}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Update post activity diagram}}{13}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Delete post use case}}{14}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Delete post activity diagram}}{15}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Message Length and Content Restriction}}{18}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces User Post Restriction By User Level Use Case}}{19}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces User Post Restriction By User Level UML}}{20}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces User Post Restriction By User Level Process Specification}}{20}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Generate template message for user or group.}}{23}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Automatically Change users level based on participation Use Case}}{24}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Automatically Change users level based on participation UML}}{25}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Process Specification for Automatically Update User Level}}{25}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces User Statistical Information Use Case}}{29}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces User Statistical Information UML}}{30}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces User Statistical Information Process Specification}}{30}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Self-organasation of data via social tags.}}{35}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Plagiarism Check Use Case}}{36}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Plagiarism Check UML}}{37}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{37}{figure.23}
