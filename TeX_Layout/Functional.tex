@@ -308,24 +308,38 @@ message.  % Point 3 - David
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
 \newpage %Each point on a new page
-   \item  % Point 6 - Keagan
+   \item  Provide functionality to support semi-automatic creation of thread summaries% Point 6 - Keagan
   \begin{enumerate}
-    \item Elaboration - 
-    \item Importance - 
-    \item Dependency level - 
+    \item Elaboration – After an allocated user has gone through a thread, selecting the posts that are important enough to be added into the thread summary, the System must process the thread and create the summary using the relevant posts. 
+    \item Importance - ***
+    \item Dependency level – Relies on the ability to give staff/privileged users the ability to edit threads. It also needs the ranking system as well as a policy governing user levels to be available to it.
     \item Pre-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User must be given the privileges required to view the thread at a higher level and select/unselect posts for inclusion/exclusion in the summary
+    	\item Allocated user must submit thread for summarizing to be done by the System
     \end{enumerate}
         \item Post-conditions
     \begin{enumerate}
-    	\item Condition 1
-    	\item Condition 2
+    	\item User successfully selected the posts that need to be included in the summary and submitted the thread for summarizing
+    	\item System processed the thread posts and created one summary of the thread
     \end{enumerate}
-    \item Requester
+    \item Requester – Allocated user
   \end{enumerate}
-%Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=345px]{"Diagrams/Use Case/KT_UC_Point6".jpg}
+	\caption{Semi-automatic creation of thread summaries Use Case}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=345px]{"Diagrams/Use Case/KT_AC_Point6".jpg}
+	\caption{Semi-automatic creation of thread summaries Activity Diagram}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=345px]{"Diagrams/Use Case/KT_CD_Point6".jpg}
+	\caption{Semi-automatic creation of thread summaries Class Diagram}
+\end{figure}
 \newpage %Each point on a new page
    \item Create automated template based messages to individual users or specified groups   % Point 7 - Neo
   \begin{enumerate}
