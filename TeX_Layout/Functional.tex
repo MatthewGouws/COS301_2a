@@ -212,8 +212,8 @@ The Following system processes detail the functional requirements of the individ
   \item Keep track of who has read what and highlight unread messages for each user. % Point 2 - Rendani
   \begin{enumerate}
     \item Elaboration - This process will allow the student/user to see which thread he/she still has to read by applying some form of emphasis on the thread. It will also allow a lecturer/board moderator to view read statistics of a thread such as how many students have read a thread and who those students are.
-    \item Importance - *
-    \item Dependency level - This function is not critical to the core operation of the system but is a client requested amenity. 
+    \item Importance - ****
+    \item Dependency level - Highlighting unread posts is important because it will allow users to efficiently follow discussions without having to find specific points where they last read and this in turn will help users post replies faster keeping discussions relevant. It is also important that the lecturer/moderator can view statistics of who has read which posts as this will give them an idea of how many students follow discussions and who those students are.
     \item Pre-conditions
     \begin{enumerate}
     	\item A user must be logged in and registered for that particular buzz space.
@@ -226,6 +226,16 @@ The Following system processes detail the functional requirements of the individ
     \end{enumerate}
     \item Requester - Client
   \end{enumerate}
+  \begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Use Case/readStatisticsUseCase".png}
+  		\caption{Highlighting/Read Statistics Use Case}
+  	\end{figure}
+  	\begin{figure}[h]
+  		\centering
+  		\includegraphics[width=300px]{"Diagrams/Process Specification/ReadStatisticsActivity".png}
+  		\caption{Highlighting/Read Statistics Activity}
+  	\end{figure}
 	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 1".png}
 \newpage %Each point on a new page
   \item Restrict the length of messages and the type of content allowed in messages based
@@ -434,7 +444,7 @@ message.  % Point 3 - David
   \begin{enumerate}
     \item Elaboration - This function will allow users to search for threads by topic, original poster, date etc. and filter posts by the topic such as “assignments”, “practicals”, “tutorials”, “general” etc.
     \item Importance - **
-    \item Dependency level - The system can function without this function but it is important because it makes the system easier to use.
+    \item Dependency level - Overall this function does not impact the use of the system and is not critical to the functioning of the system, although it makes navigating through the buzz space somewhat easier.
     \item Pre-conditions
     \begin{enumerate}
     	\item User enters a search query
@@ -447,7 +457,16 @@ message.  % Point 3 - David
     \end{enumerate}
     \item Requester - Client
   \end{enumerate}
-	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 2".png}
+  \begin{figure}[h]	
+  	\centering
+	\includegraphics[width=300px]{"Diagrams/Use Case/SearchingFilteringUseCase".png}
+	\caption{Searching and Filtering Use Case}
+  \end{figure}
+  \begin{figure}[h]
+  \centering
+	\includegraphics[width=300px]{"Diagrams/Process Specification/SearchActivity".png}
+	\caption{Searching and Filtering Activity Diagram}
+  \end{figure}
 \clearpage %Each point on a new page
    \item  Provide functionality to evaluate posts and vote for posts. % Point 11 - David
   \begin{enumerate}
