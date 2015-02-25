@@ -7,19 +7,19 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Delete post use case}}{15}{figure.7}
 \contentsline {figure}{\numberline {8}{\ignorespaces Delete post activity diagram}}{16}{figure.8}
 \contentsline {figure}{\numberline {9}{\ignorespaces Highlighting/Read Statistics Use Case}}{18}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Highlighting/Read Statistics Activity}}{19}{figure.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Highlighting/Read Statistics Activity}}{18}{figure.10}
 \contentsline {figure}{\numberline {11}{\ignorespaces Message Length and Content Restriction}}{20}{figure.11}
 \contentsline {figure}{\numberline {12}{\ignorespaces Message Length and Content Restriction activity diagram}}{20}{figure.12}
 \contentsline {figure}{\numberline {13}{\ignorespaces User Post Restriction By User Level Use Case}}{21}{figure.13}
 \contentsline {figure}{\numberline {14}{\ignorespaces User Post Restriction By User Level Process Specification}}{22}{figure.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces User Post Restriction By User Level UML}}{22}{figure.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Semi-automatic creation of thread summaries Use Case}}{25}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Semi-automatic creation of thread summaries Activity Diagram}}{26}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Semi-automatic creation of thread summaries Class Diagram}}{27}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Generate template message for user or group.}}{28}{figure.19}
+\contentsline {figure}{\numberline {17}{\ignorespaces Semi-automatic creation of thread summaries Activity Diagram}}{25}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Semi-automatic creation of thread summaries Class Diagram}}{26}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Generate template message for user or group.}}{27}{figure.19}
 \contentsline {figure}{\numberline {20}{\ignorespaces Automatically Change users level based on participation Use Case}}{28}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Automatically Change users level based on participation UML}}{29}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Process Specification for Automatically Update User Level}}{29}{figure.22}
+\contentsline {figure}{\numberline {21}{\ignorespaces Process Specification for Automatically Update User Level}}{29}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Automatically Change users level based on participation UML}}{29}{figure.22}
 \contentsline {figure}{\numberline {23}{\ignorespaces Delete post use case}}{30}{figure.23}
 \contentsline {figure}{\numberline {24}{\ignorespaces Check post netiquette activity diagram}}{31}{figure.24}
 \contentsline {figure}{\numberline {25}{\ignorespaces Searching and Filtering Use Case}}{32}{figure.25}
@@ -29,11 +29,11 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces User Statistical Information Process Specification}}{37}{figure.29}
 \contentsline {figure}{\numberline {30}{\ignorespaces User Statistical Information UML}}{37}{figure.30}
 \contentsline {figure}{\numberline {31}{\ignorespaces Apply Social Tagging Use Case}}{40}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Apply Social Tagging Activity Diagram}}{41}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Apply Social Tagging Class Diagram}}{42}{figure.33}
+\contentsline {figure}{\numberline {32}{\ignorespaces Apply Social Tagging Activity Diagram}}{40}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Apply Social Tagging Class Diagram}}{41}{figure.33}
 \contentsline {figure}{\numberline {34}{\ignorespaces Self-organasation of data via social tags.}}{43}{figure.34}
 \contentsline {figure}{\numberline {35}{\ignorespaces Plagiarism Check Use Case}}{44}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Plagiarism Check UML}}{45}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{45}{figure.37}
+\contentsline {figure}{\numberline {36}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{45}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Plagiarism Check UML}}{45}{figure.37}
 \contentsline {figure}{\numberline {38}{\ignorespaces Delete post use case}}{46}{figure.38}
 \contentsline {figure}{\numberline {39}{\ignorespaces Check post netiquette activity diagram}}{47}{figure.39}
