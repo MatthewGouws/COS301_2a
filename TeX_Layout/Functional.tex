@@ -208,7 +208,7 @@ The Following system processes detail the functional requirements of the individ
   	\clearpage
   	\end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/File_Name.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
   \item Keep track of who has read what and highlight unread messages for each user. % Point 2 - Rendani
   \begin{enumerate}
     \item Elaboration - This process will allow the student/user to see which thread he/she still has to read by applying some form of emphasis on the thread. It will also allow a lecturer/board moderator to view read statistics of a thread such as how many students have read a thread and who those students are.
@@ -237,7 +237,7 @@ The Following system processes detail the functional requirements of the individ
   		\caption{Highlighting/Read Statistics Activity}
   	\end{figure}
 	%\includegraphics[width=350px]{"Diagrams/Use Case/Dau use case 1".png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
   \item Restrict the length of messages and the type of content allowed in messages based
 on the level where it is posted as well as on the status of the user posting the
 message.  % Point 3 - David
@@ -322,7 +322,7 @@ message.  % Point 3 - David
     \item Requester
   \end{enumerate}
 %Diagram to go here \includegraphics[width=350px]{UseCases/StaffManageContentUseCase.png}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item  Provide functionality to support semi-automatic creation of thread summaries% Point 6 - Keagan
   \begin{enumerate}
     \item Elaboration – After an allocated user has gone through a thread, selecting the posts that are important enough to be added into the thread summary, the System must process the thread and create the summary using the relevant posts. 
@@ -355,7 +355,7 @@ message.  % Point 3 - David
 	\includegraphics[width=345px]{"Diagrams/UML/KT_CD_Point6".jpg}
 	\caption{Semi-automatic creation of thread summaries Class Diagram}
 \end{figure}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Create automated template based messages to individual users or specified groups   % Point 7 - Neo
   \begin{enumerate}
     \item Elaboration - This generates a template message about a topic to an individual user or a group.
@@ -378,7 +378,7 @@ message.  % Point 3 - David
     	\includegraphics[width=10cm, height=5cm]{"Diagrams/Use Case/MgsGeneration".png}
     	\caption{Generate template message for user or group.}
     \end{figure}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Automatically change the status of a user based on the users participation % Point 8 - Matthew
   \begin{enumerate}
     \item Elaboration - The System should be configured in such a way that when a user participates often the user will progress through the levels of the system, Specific number of points required per level.
@@ -403,14 +403,15 @@ message.  % Point 3 - David
 \end{figure}
 \begin{figure}[h]
 	\centering
+	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecUpdateLevel".png}
+	\caption{Process Specification for Automatically Update User Level}
+\end{figure} 
+\begin{figure}[h]
+	\centering
 	\includegraphics[width=300px]{"Diagrams/UML/UML ChangeUserLevelPosts".png}
 	\caption{Automatically Change users level based on participation UML}
 \end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecUpdateLevel".png}
-	\caption{Process Specification for Automatically Update User Level}
-\end{figure} \clearpage %Each point on a new page
+\clearpage %Each point on a new page
 
    \item Integrate seamlessly with any specified host site. % Point 1 - Syzmon
 	\begin{enumerate}
@@ -574,7 +575,7 @@ message.  % Point 3 - David
 	\includegraphics[width=345px]{"Diagrams/UML/KT_CD_Point14".jpg}
 	\caption{Apply Social Tagging Class Diagram}
 \end{figure}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Apply self-organasation based on social tagging and allow the user to view according to the base structure, own structure or public structure % Point 15 - Neo
   \begin{enumerate}
     \item Elaboration - The user is able to use social tags that tell us more about a post thus is also able to search for a thread according to topics that have those social tags and arrange topic threads accordingly via tags. The user is also able to view posts according to the base structure given by the buzz system or specify their own structure by making use of the social tags there is also a general structure for the public who are not registered users. 
@@ -597,7 +598,7 @@ message.  % Point 3 - David
     	\includegraphics[width=10cm, height=5cm]{"Diagrams/Use Case/SocialTags".png}
     	\caption{Self-organasation of data via social tags.}
     \end{figure}
-\newpage %Each point on a new page
+\clearpage %Each point on a new page
    \item Detect if a post is plagiarised  % Point 16 - Matthew
   \begin{enumerate}
     \item Elaboration - The entire post will be checked to see if it has been copied directly from another source, a full post quote will be open searched in a search engine, if any hits are found the post will be marked as possibly plagiarised and send to administrator
@@ -621,13 +622,13 @@ message.  % Point 3 - David
 \end{figure}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=300px]{"Diagrams/UML/UML_Plagiarism".png}
-	\caption{Plagiarism Check UML}
+	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecPlagiarism".png}
+	\caption{Process Specification for Checking Plagiarism API and Internal Checks}
 \end{figure}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=300px]{"Diagrams/Process Specification/ProcessSpecPlagiarism".png}
-	\caption{Process Specification for Checking Plagiarism API and Internal Checks}
+	\includegraphics[width=300px]{"Diagrams/UML/UML_Plagiarism".png}
+	\caption{Plagiarism Check UML}
 \end{figure}
 \clearpage %Each point on a new page
    \item Detect violation of netiquette rules. % Point 17 - Syzmon
@@ -667,9 +668,6 @@ message.  % Point 3 - David
 
 \clearpage
 
-\section{Open Issues}
-
-\section{Glossary}
 
 \end{document}
 
