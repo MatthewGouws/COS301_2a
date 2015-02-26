@@ -7,5 +7,5 @@
 \contentsline {section}{\numberline {3}System Description}{6}{section.3}
 \contentsline {section}{\numberline {4}Functional Requirements}{7}{section.4}
 \contentsline {subsection}{\numberline {4.1}Use Cases}{7}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Use Case Prioritization}{7}{subsubsection.4.1.1}
-\contentsline {subsection}{\numberline {4.2}Required Functionality}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.1.1}Use Case Prioritization}{9}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Required Functionality}{11}{subsection.4.2}

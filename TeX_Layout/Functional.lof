@@ -1,44 +1,45 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Create post use case}}{10}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Create post activity diagram}}{10}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Read post use case}}{11}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Read post activity diagram}}{12}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Update post use case}}{13}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Update post activity diagram}}{14}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Delete post use case}}{15}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Delete post activity diagram}}{16}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Create, read, update and delete posts class diagram}}{17}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Highlighting/Read Statistics Use Case}}{19}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Highlighting/Read Statistics Activity}}{19}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Message Length and Content Restriction Use Case}}{21}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Message Length and Content Restriction activity diagram}}{21}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Message Length and Content Restriction activity diagram}}{22}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces User Post Restriction By User Level Use Case}}{23}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces User Post Restriction By User Level Process Specification}}{24}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces User Post Restriction By User Level UML}}{24}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Semi-automatic creation of thread summaries Use Case}}{27}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Semi-automatic creation of thread summaries Activity Diagram}}{27}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Semi-automatic creation of thread summaries Class Diagram}}{28}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Generate template message for user or group.}}{29}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Automatically Change users level based on participation Use Case}}{30}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Process Specification for Automatically Update User Level}}{31}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Automatically Change users level based on participation UML}}{31}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Integration of Buzz Space in host site use case diagram}}{32}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Integration of Buzz Space in host site activity diagram}}{33}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Integration of Buzz Space in host site class diagram}}{34}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Searching and Filtering Use Case}}{35}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Searching and Filtering Activity Diagram}}{36}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Vote For Posts And Evaluate Posts}}{38}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Posts UML}}{39}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces User Statistical Information Use Case}}{40}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces User Statistical Information Process Specification}}{41}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces User Statistical Information UML}}{41}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Apply Social Tagging Use Case}}{44}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Apply Social Tagging Activity Diagram}}{44}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Apply Social Tagging Class Diagram}}{45}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Self-organasation of data via social tags.}}{47}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Plagiarism Check Use Case}}{48}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{49}{figure.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Plagiarism Check UML}}{49}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Check if post violates netiquette rules use case}}{50}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Check if post violates netiquette rules activity diagram}}{51}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Check if post violates netiquette rules class diagram}}{52}{figure.44}
+\contentsline {figure}{\numberline {1}{\ignorespaces Combined Use Case of Entire System}}{8}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Create post use case}}{12}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Create post activity diagram}}{12}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Read post use case}}{13}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Read post activity diagram}}{14}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Update post use case}}{15}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Update post activity diagram}}{16}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Delete post use case}}{17}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Delete post activity diagram}}{18}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Create, read, update and delete posts class diagram}}{19}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Highlighting/Read Statistics Use Case}}{21}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Highlighting/Read Statistics Activity}}{21}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Message Length and Content Restriction Use Case}}{23}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Message Length and Content Restriction activity diagram}}{23}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Message Length and Content Restriction activity diagram}}{24}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces User Post Restriction By User Level Use Case}}{25}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces User Post Restriction By User Level Process Specification}}{26}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces User Post Restriction By User Level UML}}{26}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Semi-automatic creation of thread summaries Use Case}}{29}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Semi-automatic creation of thread summaries Activity Diagram}}{29}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Semi-automatic creation of thread summaries Class Diagram}}{30}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Generate template message for user or group.}}{31}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Automatically Change users level based on participation Use Case}}{32}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Process Specification for Automatically Update User Level}}{33}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Automatically Change users level based on participation UML}}{33}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Integration of Buzz Space in host site use case diagram}}{34}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Integration of Buzz Space in host site activity diagram}}{35}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Integration of Buzz Space in host site class diagram}}{36}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Searching and Filtering Use Case}}{37}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Searching and Filtering Activity Diagram}}{38}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Vote For Posts And Evaluate Posts}}{40}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Posts UML}}{41}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces User Statistical Information Use Case}}{42}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces User Statistical Information Process Specification}}{43}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces User Statistical Information UML}}{43}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Apply Social Tagging Use Case}}{46}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Apply Social Tagging Activity Diagram}}{46}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Apply Social Tagging Class Diagram}}{47}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Self-organasation of data via social tags.}}{49}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Plagiarism Check Use Case}}{50}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Process Specification for Checking Plagiarism API and Internal Checks}}{51}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Plagiarism Check UML}}{51}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Check if post violates netiquette rules use case}}{52}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Check if post violates netiquette rules activity diagram}}{53}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Check if post violates netiquette rules class diagram}}{54}{figure.45}
